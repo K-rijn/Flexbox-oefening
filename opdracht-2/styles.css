@@ -3,3 +3,51 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+.one {
+    display: flex;
+    flex-direction: column;
+    background-color: mediumpurple;
+    justify-content: flex-end;
+
+
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+
+}
+
+.eind {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+
+
+.align-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.list {
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    flex-basis: 300px;
+
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
