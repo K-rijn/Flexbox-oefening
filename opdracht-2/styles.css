@@ -28,8 +28,6 @@
 }
 
 
-
-
 .align-right {
     display: flex;
     flex-direction: row;
@@ -38,16 +36,45 @@
 }
 
 .list {
-    display:inline-flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: space-evenly;
     list-style-type: none;
     flex-basis: 300px;
 
 }
-.three{
+
+.three {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+
+.four {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+input[type=text] {
+    display: flex;
+    flex-direction: row;
+    margin-left: 140px;
+    width: 50%;
+    margin-top: 10px;
+
+}
+input[type=password]{
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    margin-top: 10px;
+    margin-left: 140px;
+    width: 50%;
+}
+
+
