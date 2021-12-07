@@ -51,30 +51,64 @@
     align-items: center;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .four {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
-
+    align-items: center;
 }
 
-
-input[type=text] {
+.five {
     display: flex;
     flex-direction: row;
-    margin-left: 140px;
-    width: 50%;
-    margin-top: 10px;
+    flex-wrap: wrap;
+
+
 
 }
-input[type=password]{
-    display: flex;
-    flex-direction: row;
-    align-items: normal;
-    margin-top: 10px;
-    margin-left: 140px;
-    width: 50%;
+
+.een {
+   flex-grow: 2;
+    flex-basis: 350px;
+
+
 }
+
+.twee {
+    flex-grow: 2;
+    flex-basis: 350px;
+
+
+}
+
+.drie {
+    flex-grow: 2;
+    flex-basis: 350px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
